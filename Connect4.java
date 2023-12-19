@@ -9,10 +9,10 @@ import java.awt.Point;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
 
-public class DrawGrid {
+public class Connect4 {
     private JFrame frame;
 
-    public DrawGrid() {
+    public Connect4() {
         frame = new JFrame("DrawGrid");
         frame.setSize(600, 400);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
